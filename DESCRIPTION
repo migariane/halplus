@@ -1,12 +1,13 @@
 Package: hal
 Title: Highly Adaptive Lasso
 Version: 0.1
-Authors@R: person("David", "Benkeser", email = "david.benkeser@berkeley.edu",
-                  role = c("aut", "cre"))
+Authors@R: as.person(c(
+    "David Benkeser <david.benkeser@berkeley.edu> [aut, cre]"))
 Description: Highly adaptive lasso.
 Depends:
     R (>= 3.1.0)
-License: GPL (>= 2)
+License:
+    GPL (>= 2)
 LazyData: true
 Imports:
     bartMachine,
@@ -24,5 +25,5 @@ Imports:
     stringr,
     SuperLearner
 Suggests:
-  testthat
+    testthat
 RoxygenNote: 5.0.1
